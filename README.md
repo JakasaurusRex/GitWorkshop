@@ -140,3 +140,4 @@ git merge newbranch
 
 This should merge without issue! If you changed some files on the main branch and committed them, you might run into a merge conflict. If this happens, theres a bunch of ways to solve the conflict but its best to try to figure that out on your own. Try to create a merge conflict and resolve it! At this point read through the git tutorial mentioned earlier to learn more about branching and collaborating with others!
 
+I also recommending reading [Yet Another Git Guide by John Hui](https://j-hui.com/pages/yagg/#merging-vs-rebasing), a former instructor of Advanced Programming!
