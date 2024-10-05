@@ -1,2 +1,2 @@
-# GitWorkshop
-A introductory to git workshop!
+# Git Workshop - A introductory to git workshop!
+
