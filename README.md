@@ -109,3 +109,34 @@ After doing that, you can commit the change like you did before!
 Try messing around and getting used to doing things using git!
 
 In order to upload these changes to github for collaborators to see, you need to setup [github CLI](https://cli.github.com/manual/) or one of the GUI based github applications I mentioned earlier! Check those out now that you now how git works!
+
+If you wanna learn more about git run the following command!
+
+```bash
+man gittutorial
+```
+
+## Gitting Advanced
+
+Branching is a super useful tool! In order to see what branches are available run
+```bash
+git branch
+```
+
+Lets create a new branch that we can make some changes on!
+
+```bash
+git branch newbranch
+```
+
+Now if we run ```git branch```, we should be able to see it on the list of branches. We can move to working on that branch by running ```git switch newbranch``` or ```git checkout newbranch```
+
+On our new branch make some changes and commit them and switch back to the main branch. 
+
+Now lets try to merge our changes and see what happens.
+```bash
+git merge newbranch
+```
+
+This should merge without issue! If you changed some files on the main branch and committed them, you might run into a merge conflict. If this happens, theres a bunch of ways to solve the conflict but its best to try to figure that out on your own. Try to create a merge conflict and resolve it! At this point read through the git tutorial mentioned earlier to learn more about branching and collaborating with others!
+
