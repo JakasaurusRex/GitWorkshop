@@ -1,4 +1,5 @@
 # Introductory to Git Workshop!
+This guide assumes that you have some bash shell on your computer and a little bit of experience with it. If you don't its completely ok, just tell Jake!
 
 ## Installation and Setup
 
